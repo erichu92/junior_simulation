@@ -1,0 +1,5 @@
+<launch>
+  <!-- turtlebot3_teleop_key already has its own built in velocity smoother -->
+  <node pkg="junior_teleop" type="junior_teleop_key" name="junior_teleop_keyboard"  output="screen">
+  </node>
+</launch>
